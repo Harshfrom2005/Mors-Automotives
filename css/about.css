@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    overflow-x: hidden ;
+  }
+
+  .about{
+    width: 100%;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .about h1{
+    margin-top: 20px;
+    margin: 30px;
+  }
+
+  .about p{
+    color: white;
+    margin-left: 30px;
+  }

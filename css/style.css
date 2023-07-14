@@ -1,0 +1,646 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  overflow-x: hidden;
+}
+
+.navbar {
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 9999;
+  height: 15px;
+}
+
+.navbar a:hover {
+  background-color: red;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin-left: 20px;
+  padding: 0;
+  display: flex;
+}
+
+.navbar li {
+  margin-right: 20px;
+}
+
+.navbar li:last-child {
+  margin-right: 0;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  font-size: 16px;
+  font-weight: bold;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
+    1px 1px 0 black;
+}
+
+.search-box {
+  background-color: transparent;
+  padding: 8px;
+  border-radius: 4px;
+  display: flex;
+}
+
+.search-box input[type="text"] {
+  border: 1px solid black;
+  font-size: 14px;
+  padding: 0 8px;
+  background: white;
+  color: black;
+  margin-right: 10px;
+  border-radius: 10px;
+  height: 30px;
+}
+
+.search-box input[type="submit"] {
+  background: rgb(248, 248, 246);
+  border: 1px solid black;
+  padding: 4px;
+  margin-left: 4px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: black;
+  border-radius: 10px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  width: 60px; 
+  height: auto;
+}
+
+
+.video {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Adjust the height as needed */
+  z-index: -1;
+}
+
+.video video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.intro-car-logos {
+  display: flex;
+  align-items: center;
+}
+
+.koenigsegglogo {
+  height: 170px;
+  padding-top: 15px;
+  transition: box-shadow 0.1s;
+}
+
+.koenigsegglogo:hover {
+  box-shadow: 0 0 10px white;
+}
+
+.bugattilogo {
+  height: 170px;
+  padding-left: 10px;
+  transition: box-shadow 0.1s;
+}
+
+.bugattilogo:hover {
+  box-shadow: 0 0 10px white;
+}
+
+.mercedes-logo {
+  height: 120px;
+  transition: box-shadow 0.1s;
+}
+
+.mercedes-logo:hover {
+  box-shadow: 0 0 10px white;
+}
+
+.lamborghini-logo {
+  height: 130px;
+  margin-left: 10px;
+  transition: 0.1s;
+}
+
+.lamborghini-logo:hover {
+  box-shadow: 0 0 10px white;
+}
+
+.ferrari-logo {
+  height: 135px;
+  /* padding-left: 30px; */
+  margin-left: 30px;
+  transition: 0.1s;
+}
+
+.ferrari-logo:hover {
+  box-shadow: 0 0 10px white;
+}
+
+.pagani-logo {
+  height: 150px;
+  /* padding-left: 30px; */
+  margin-left: 30px;
+  transition: 0.1s;
+}
+
+.pagani-logo:hover {
+  box-shadow: 0 0 10px white;
+}
+
+.bentley-logo {
+  height: 150px;
+  transition: 0.1s;
+}
+
+.bentley-logo:hover {
+  box-shadow: 0 0 10px white;
+}
+
+.rolls-royce-logo {
+  height: 150px;
+  transition: 0.1s;
+}
+
+.rolls-royce-logo:hover {
+  box-shadow: 0 0 10px white;
+}
+
+.inventory-section1 {
+  display: flex;
+}
+
+.inventory-section2 {
+  display: flex;
+}
+
+.inventory-section3 {
+  display: flex;
+}
+
+.inventory-bugatti {
+  width: 33.33%;
+  height: 450px;
+  transition: 0.1s;
+}
+
+.inventory-bugatti:hover {
+  box-shadow: 0 0 10px red;
+}
+
+.inventory-koenigsegg {
+  width: 33.33%;
+  height: 450px;
+  transition: 0.1s;
+}
+
+.inventory-koenigsegg:hover {
+  box-shadow: 0 0 10px red;
+}
+
+.inventory-pagani {
+  width: 33.33%;
+  height: 450px;
+  transition: 0.1s;
+}
+
+.inventory-pagani:hover {
+  box-shadow: 0 0 10px red;
+}
+
+.inventory-mercedes {
+  width: 33.33%;
+
+  height: 450px;
+  transition: 0.1s;
+}
+
+.inventory-mercedes:hover {
+  box-shadow: 0 0 10px red;
+}
+
+.inventory-bentley {
+  width: 33.33%;
+
+  height: 450px;
+  transition: 0.1s;
+}
+
+.inventory-bentley:hover {
+  box-shadow: 0 0 10px red;
+}
+
+.inventory-rolls-royce {
+  width: 33.33%;
+  height: 450px;
+  transition: 0.1s;
+}
+
+.inventory-rolls-royce:hover {
+  box-shadow: 0 0 10px red;
+}
+
+.inventory-lamborghini {
+  width: 33.33%;
+
+  height: 450px;
+  transition: 0.1s;
+}
+
+.inventory-lamborghini:hover {
+  box-shadow: 0 0 10px red;
+}
+
+.inventory-ferrari {
+  width: 33.33%;
+
+  height: 450px;
+  transition: 0.1s;
+}
+
+.inventory-ferrari:hover {
+  box-shadow: 0 0 10px red;
+}
+
+.load-more {
+  width: 33.33%;
+  height: 450px;
+  transition: 0.1s;
+}
+
+.load-more:hover {
+  box-shadow: 0 0 10px red;
+}
+
+.bugatti-introimg {
+  width: 100%;
+  height: 55%;
+  display: flex;
+}
+
+.intro-bugatti {
+  width: 440px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.koenigsegg-introimg {
+  width: 99%;
+  height: 55%;
+  display: flex;
+}
+
+.intro-koenigsegg {
+  width: 440px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.pagani-introimg {
+  width: 99%;
+  display: flex;
+  height: 55%;
+}
+
+.intro-pagani {
+  width: 440px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.lamborghini-introimg {
+  width: 99%;
+  display: flex;
+  height: 55%;
+}
+
+.intro-lamborghini {
+  width: 440px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.ferrari-introimg {
+  width: 99%;
+  display: flex;
+  height: 55%;
+}
+
+.intro-ferrari {
+  width: 440px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.bentley-introimg {
+  width: 99%;
+  display: flex;
+  height: 55%;
+}
+
+.intro-bentley {
+  width: 440px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.rolls-royce-introimg {
+  width: 99%;
+  display: flex;
+  height: 55%;
+}
+
+.intro-rolls-royce {
+  width: 440px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.mercedes-introimg {
+  width: 99%;
+  display: flex;
+  height: 55%;
+}
+
+.intro-mercedes {
+  width: 440px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.porche-introimg {
+  width: 99%;
+  display: flex;
+  height: 55%;
+}
+
+.intro-porche {
+  width: 440px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.footer-body {
+  background-color: gainsboro;
+  height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-heading {
+  font-size: 25px;
+  display: flex;
+  height: 50%;
+  width: 100%;
+  justify-content: end;
+  align-items: center;
+  padding-right: 20px;
+}
+
+.footer-content {
+  display: flex;
+  width: 100%;
+  height: inherit;
+  align-items: center;
+}
+
+.your-email-address {
+  width: 100%;
+  display: flex;
+  height: 50%;
+  align-items: center;
+  justify-content: start;
+  padding-left: 20px;
+}
+
+.js-email-address {
+  height: 30px;
+  border-radius: 14px;
+  width: 275px;
+  text-align: center;
+}
+
+.js-submit {
+  height: 30px;
+  align-self: center;
+  margin-left: 10px;
+  border-radius: 15px;
+}
+
+.bugatti-h1 {
+  color: white;
+  font-size: 30px;
+  margin-left: 40px;
+  font-weight: normal;
+}
+
+.bugatti-model-year {
+  color: white;
+  font-weight: lighter;
+  margin-left: 45px;
+  margin-top: -5px;
+}
+
+.bugatti-price {
+  color: white;
+  font-weight: lighter;
+  margin-left: 45px;
+  margin-top: -5px;
+}
+
+.koenigsegg-h1 {
+  color: white;
+  font-size: 30px;
+  margin-left: 40px;
+  font-weight: normal;
+}
+
+.koenigsegg-model-year {
+  color: white;
+  font-weight: lighter;
+  margin-left: 45px;
+  margin-top: -5px;
+}
+
+.koenigsegg-price {
+  color: white;
+  font-weight: lighter;
+  margin-left: 45px;
+  margin-top: -5px;
+}
+
+.pagani-h1 {
+  color: white;
+  font-size: 30px;
+  margin-left: 60px;
+  font-weight: normal;
+}
+
+.pagani-model-year {
+  color: white;
+  font-weight: lighter;
+  margin-left: 65px;
+  margin-top: -5px;
+}
+
+.pagani-price {
+  color: white;
+  font-weight: lighter;
+  margin-left: 65px;
+  margin-top: -5px;
+}
+
+.lamborghini-h1 {
+  color: white;
+  font-size: 25px;
+  margin-left: 25px;
+  font-weight: normal;
+}
+
+.lamborghini-model-year {
+  color: white;
+  font-weight: lighter;
+  margin-left: 25px;
+  margin-top: -5px;
+}
+
+.lamborghini-price {
+  color: white;
+  font-weight: lighter;
+  margin-left: 25px;
+  margin-top: -5px;
+}
+
+.ferrari-h1 {
+  color: white;
+  font-size: 25px;
+  margin-left: 115px;
+  font-weight: normal;
+}
+
+.ferrari-model-year {
+  color: white;
+  font-weight: lighter;
+  margin-left: 115px;
+  margin-top: -5px;
+}
+
+.ferrari-price {
+  color: white;
+  font-weight: lighter;
+  margin-left: 115px;
+  margin-top: -5px;
+}
+
+.bentley-h1 {
+  color: white;
+  font-size: 25px;
+  margin-left: 45px;
+  font-weight: normal;
+}
+
+.bentley-model-year {
+  color: white;
+  font-weight: lighter;
+  margin-left: 45px;
+  margin-top: -5px;
+}
+
+.bentley-price {
+  color: white;
+  font-weight: lighter;
+  margin-left: 45px;
+  margin-top: -5px;
+}
+
+.rolls-royce-h1 {
+  color: white;
+  font-size: 30px;
+  margin-left: 65px;
+  font-weight: normal;
+}
+
+.rolls-royce-model-year {
+  color: white;
+  font-weight: lighter;
+  margin-left: 65px;
+  margin-top: -5px;
+}
+
+.rolls-royce-price {
+  color: white;
+  font-weight: lighter;
+  margin-left: 65px;
+  margin-top: -5px;
+}
+
+.mercedes-h1 {
+  color: white;
+  font-size: 30px;
+  margin-left: 65px;
+  font-weight: normal;
+}
+
+.mercedes-model-year {
+  color: white;
+  font-weight: lighter;
+  margin-left: 65px;
+  margin-top: -5px;
+}
+
+.mercedes-price {
+  color: white;
+  font-weight: lighter;
+  margin-left: 65px;
+  margin-top: -5px;
+}
+
+.porche-h1 {
+  color: white;
+  font-size: 30px;
+  margin-left: 65px;
+  font-weight: normal;
+}
+
+.porche-model-year {
+  color: white;
+  font-weight: lighter;
+  margin-left: 65px;
+  margin-top: -5px;
+}
+
+.porche-price {
+  color: white;
+  font-weight: lighter;
+  margin-left: 65px;
+  margin-top: -5px;
+}
+
+/* .lamborghini{
+  transition: 0.1s;
+}
+
+.lamborghini:hover{
+  box-shadow: 0px 0px 10px white;
+} */
+
+

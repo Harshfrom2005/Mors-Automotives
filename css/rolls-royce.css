@@ -1,0 +1,155 @@
+body{
+    background-color: black;
+}
+
+.navbar {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 9999;
+    height: 75px;
+
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin-left: 20px;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navbar li {
+    margin-right: 20px;
+  }
+  
+  .navbar li:last-child {
+    margin-right: 0;
+  }
+
+  a:hover{
+    background-color: red;
+  }
+  
+  .navbar a {
+  text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-size: 16px;
+    font-weight: normal;
+  }
+  
+  .search-box {
+    background-color: transparent;
+    padding: 8px;
+    border-radius: 4px;
+    display: flex;
+    margin-top: -10px;
+  }
+  
+  .search-box input[type="text"] {
+    border: 1px solid black;
+    font-size: 14px;
+    padding: 0 8px;
+    background: white;
+    color: black;
+    margin-right: 10px;
+    border-radius: 10px;
+    height: 35px;
+  }
+  
+  .search-box input[type="submit"] {
+    background: rgb(248, 248, 246);
+    border: 1px solid black;
+    padding: 4px;
+    margin-left: 4px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: black;
+    border-radius: 10px;
+    height: 35px;
+  }
+
+  .navbar-menu{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .logo{
+    margin-top: -15px;
+  }
+
+  .rolls-royce-name{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .rolls-royce-name h1{
+    color: white;
+    font-weight: normal;
+    font-family: Garamond, serif;
+    
+  }
+
+  .navbar-slider{
+    opacity: 10;
+  }
+
+  .carousel-control-prev-icon, .carousel-control-next-icon {
+    width: 100;
+    height: 100;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: rgba(255, 0, 0, 0.582);
+    border-radius: 40%;
+}
+
+.rolls-royce-details{
+    /* border: white solid; */
+    height: 350px;
+    width: 100%;
+    display: flex;
+    margin-top: 60px;
+}
+
+.rolls-royce-description{
+  width: 50%;
+  margin-left: 120px;
+}
+
+
+.new-line-div {
+  clear: both;
+}
+
+.booking-form {
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.booking-form h2 {
+  color: rgb(223, 10, 10);
+}
+
+.booking-form div {
+  margin-bottom: 10px;
+}
+
+.booking-form label {
+  display: inline-block;
+  width: 100px;
+  font-weight: bold;
+}
+
+.booking-form input,
+.booking-form textarea {
+  width: 200px;
+  padding: 5px;
+}
